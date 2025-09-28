@@ -5,6 +5,7 @@ import HireButton from "./HireButton";
 const NavLinks = () => {
     return (
         <>
+            <a className="md:pr-6 text-white nav-link" href="#home">Home</a>
             <a className="md:pr-6 text-white nav-link" href="#about">About</a>
             <a className="md:pr-6 text-white nav-link" href="#skills">Skills</a>
             <a className="md:pr-6 text-white nav-link" href="#projects">Projects</a>
