@@ -45,6 +45,7 @@
     background-clip: text;
 }
 
+/* Header CSS */
 .contact-btn {
     background: var(--gradient-orange);
     font-weight: 500;
@@ -59,10 +60,26 @@
     transition: color 0.3s ease;
 }
 
+/* Hero CSS */
 .title {
     font-family: 'JetBrains Mono', monospace;
 }
 
 .paragraph-color {
     color: var(--paragraph-color);
+}
+
+.hero-cards{
+    background-color: var(--card-background-color-dark);
+    transition: all 0.3s ease;
+}
+
+.hero-cards:hover {
+    background-color: #4b4b4b;
+    transform: scale(1.05);
+}
+
+.download-cv {
+    font-family: "JetBrains Mono", monospace;
+    box-shadow: #e67e2a 0px 0px 9px 3px;
 }
