@@ -11,7 +11,7 @@ export default function HeroParagraph() {
                     showCursor={true}
                     cursorCharacter=""
                 /></p>
-            <p className="text-2xl paragraph-color tracking-tight">With hands-on experience building responsive, data-driven applications using React, Django, PostgreSQL, and REST APIs. Skilled in Python, JavaScript, TypeScript, and Node.js, I enjoy designing efficient solutions from frontend to backend, deploying to cloud platforms, and continuously expanding my tech stack.</p>
+            <p className="text-2xl paragraph-color">With hands-on experience building responsive, data-driven applications using React, Django, PostgreSQL, and REST APIs. Skilled in Python, JavaScript, TypeScript, and Node.js, I enjoy designing efficient solutions from frontend to backend, deploying to cloud platforms, and continuously expanding my tech stack.</p>
         </div>
     )
 }
