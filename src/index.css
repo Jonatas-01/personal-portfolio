@@ -6,14 +6,15 @@
 :root {
     /* color for texts */
     --title-color: #ffffff;
-    --paragraph-color: #c4c4c4;
-    --primary-color: #e57114;
+    --paragraph-color: #bdbdbd;
+    --primary-color: #e47419;
+    --secondary-color: #e67e2a;
 
     /* gradients */
     --gradient-orange: linear-gradient(
-        110deg,
-        rgb(221, 107, 13) 20%,
-        rgb(233, 132, 61) 80%
+        135deg,
+        rgb(218, 105, 12) 30%,
+        rgb(233, 132, 61) 70%
     );
 
     /* background colors */
@@ -33,9 +34,19 @@
     color: var(--primary-color);
 }
 
-.hire-btn {
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.gradient-text {
     background: var(--gradient-orange);
-    color:#242424;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-btn {
+    background: var(--gradient-orange);
     font-weight: 500;
     font-family: "JetBrains Mono", monospace;
     cursor: pointer;
@@ -46,4 +57,12 @@
     text-decoration: none;
     font-family: "jetbrains mono", monospace;
     transition: color 0.3s ease;
+}
+
+.title {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.paragraph-color {
+    color: var(--paragraph-color);
 }
