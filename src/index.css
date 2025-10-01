@@ -37,6 +37,18 @@
     color: var(--secondary-color);
 }
 
+.title {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.paragraph-color {
+    color: var(--paragraph-color);
+}
+
+.background-dark {
+    background-color: var(--background-color-dark);
+}
+
 .gradient-text {
     background: var(--gradient-orange);
     -webkit-background-clip: text;
@@ -65,14 +77,6 @@
 }
 
 /* Hero CSS */
-.title {
-    font-family: "JetBrains Mono", monospace;
-}
-
-.paragraph-color {
-    color: var(--paragraph-color);
-}
-
 .hero-cards {
     background-color: var(--card-background-color-dark);
     transition: all 0.3s ease;
