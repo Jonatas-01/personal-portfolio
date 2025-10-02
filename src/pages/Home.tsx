@@ -1,3 +1,4 @@
+import AboutMe from "../components/AboutMe/AboutMe";
 import Header from "../components/Header/Header"
 import Hero from "../components/Hero/Hero";
 
@@ -7,7 +8,7 @@ export default function Home() {
             <Header />
             <Hero />
             {/* About Me */}
-
+            <AboutMe />
             {/* Skills */}
 
             {/* Projects */}
