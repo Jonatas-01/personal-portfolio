@@ -1,7 +1,7 @@
 
 export default function AboutMeTxt() {
     return (
-        <div className="container mx-auto pt-8">
+        <div className="container mx-auto sm:pt-4">
             <div>
                 <h2 className="text-white title text-3xl font-bold">🔥About Me</h2>
             </div>
