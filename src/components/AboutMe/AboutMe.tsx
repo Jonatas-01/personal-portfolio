@@ -4,14 +4,16 @@ import AboutMeTxt from "./AboutMeTxt";
 
 export default function AboutMe() {
     return (
-    <div className="pt-15 container mx-auto px-4 max-w-6xl flex flex-col xl:flex-row ">
-        <div className="basis-4/10">
-            <AboutMeImg />
-        </div>
-        <div className="basis-6/10">
-            <AboutMeTxt />
-            <AboutMeBtn />
-        </div>
-    </div>
+        <section id="about" className="px-4">
+            <div className="mx-auto max-w-6xl flex flex-col xl:flex-row gap-10 pt-16">
+                <div className="xl:basis-2/5">
+                    <AboutMeImg />
+                </div>
+                <div className="xl:basis-3/5">
+                    <AboutMeTxt />
+                    <AboutMeBtn />
+                </div>
+            </div>
+        </section>
     )
 }

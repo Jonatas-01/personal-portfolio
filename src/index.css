@@ -91,3 +91,33 @@
     font-family: "JetBrains Mono", monospace;
     box-shadow: #e67e2a 0px 0px 9px 3px;
 }
+
+.skill-cards {
+    border-color: #4b4b4b;
+    color: #4b4b4b;
+    font-family: "jetbrains mono", monospace;
+}
+
+.advanced-skill {
+    background: linear-gradient(
+        123deg,
+        rgba(8, 74, 189, 1) 31%,
+        rgba(83, 100, 230, 1) 64%
+    );
+}
+
+.intermediate-skill {
+    background: linear-gradient(
+        123deg,
+        rgba(224, 169, 38, 1) 31%,
+        rgba(247, 131, 42, 1) 64%
+    );
+}
+
+.learning-skill {
+    background: linear-gradient(
+        123deg,
+        rgba(49, 133, 30, 1) 29%,
+        rgba(80, 191, 6, 1) 73%
+    );
+}

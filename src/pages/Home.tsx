@@ -1,6 +1,7 @@
 import AboutMe from "../components/AboutMe/AboutMe";
 import Header from "../components/Header/Header"
 import Hero from "../components/Hero/Hero";
+import Skills from "../components/Skills/Skills";
 
 export default function Home() {
     return (
@@ -10,7 +11,7 @@ export default function Home() {
             {/* About Me */}
             <AboutMe />
             {/* Skills */}
-
+            <Skills />
             {/* Projects */}
 
             {/* Contact Section */}
