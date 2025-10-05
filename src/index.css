@@ -92,6 +92,7 @@
     box-shadow: #e67e2a 0px 0px 9px 3px;
 }
 
+/* Skills */
 .skill-cards {
     border-color: #4b4b4b;
     color: #4b4b4b;
@@ -122,6 +123,12 @@
     );
 }
 
+/* Contact */
+.contact-title {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Footer */
 .footer {
     font-family: 'JetBrains Mono', monospace;
 }
