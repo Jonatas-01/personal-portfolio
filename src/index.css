@@ -121,3 +121,7 @@
         rgba(80, 191, 6, 1) 73%
     );
 }
+
+.footer {
+    font-family: 'JetBrains Mono', monospace;
+}
