@@ -4,7 +4,7 @@ import { projectsData } from "./data/projectsData"
 
 export default function Projects() {
     return (
-        <section className="pt-10 px-4">
+        <section className="pt-10 px-4" id="projects">
             <div className="container mx-auto max-w-6xl">
                 <ProjectTitle />
                 <div className="container mx-auto flex flex-col md:flex-row justify-center items-center md:items-start gap-5">
