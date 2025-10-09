@@ -125,10 +125,49 @@
 
 /* Contact */
 .contact-title {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
 }
 
 /* Footer */
 .footer {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
 }
+
+/* Projects */
+.python-color {
+    color: #3776ab;
+}
+.react-color {
+    color: #61dafb;
+}
+.javascript-color {
+    color: #f7df1e;
+}
+.html-color {
+    color: #e34f26;
+}
+.css-color {
+    color: #264de4;
+}
+.tailwind-color {
+    color: #38bdf8;
+}
+.git-color {
+    color: #f05032;
+}
+.postgresql-color {
+    color: #336791;
+}
+.typescript-color {
+    color: #3178c6;
+}
+.django-color {
+    color: #092e20;
+}
+.pandas-color {
+    color: #150458;
+}
+.numpy-color {
+    color: #013243;
+}
+
