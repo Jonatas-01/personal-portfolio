@@ -5,7 +5,7 @@ export default function HeroParagraph() {
         <div className="px-4 ">
             <p className="text-2xl paragraph-color py-2 pt-4">I am a
                 <TypeAnimation
-                    text={[" Software Developer", " Fullstack Developer", " Data Practitioner"]}
+                    text={[" Software Developer", " Fullstack Developer", " Data Practitioner", "Web Developer"]}
                     typingSpeed={120}
                     pauseDuration={2000}
                     showCursor={true}
