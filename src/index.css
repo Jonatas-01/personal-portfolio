@@ -134,6 +134,10 @@
 }
 
 /* Projects */
+.tech-card {
+    border-color: #3a3a3a;
+}
+
 .python-color {
     color: #3776ab;
 }
@@ -170,4 +174,12 @@
 .numpy-color {
     color: #013243;
 }
-
+.scikitlearn-color {
+    color: #f7931e;
+}
+.streamlit-color {
+    color: #ff4b4b;
+}
+.jupyter-color {
+    color: #f37626;
+}

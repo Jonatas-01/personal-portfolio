@@ -1,4 +1,5 @@
 import TechCard from "./TechCard";
+import { FaGithub, FaExternalLinkAlt} from "react-icons/fa";
 
 interface ProjectCardProps {
     image: string;
@@ -19,26 +20,27 @@ export default function ProjectCard({
     liveLink,
     documentationLink }: ProjectCardProps) {
     return (
-        <div>
-            <div>
-                <img src={image} alt={imageAlt} />
+        <div className=" p-3">
+            <div className="overflow-hidden">
+                <img className="w-[500px] h-[260px] object-cover rounded-xl" src={image} alt={imageAlt} />
             </div>
             {/* Project Details */}
-            <div>
-                <h3 className="text-xl font-bold text-white">{title}</h3>
-                <p className="paragraph-color">{description}</p>
+            <div className="py-3">
+                <h3 className="text-2xl font-bold text-white title">{title}</h3>
+                <p className="paragraph-color text-xl pt-1 max-w-[500px]">{description}</p>
                 {/* Boxes for each technology */}
-                <div className="flex gap-2 flex-wrap">
+                <h3 className="text-xl text-white title pt-2">Technologies Used</h3>
+                <div className="flex gap-2 flex-wrap pt-2">
                     {technologies.map((tech) => (
                         <TechCard key={tech} tech={tech} />
                     ))}
                 </div>
             </div>
             {/* Project Links */}
-            <div>
-                <a href={documentationLink} className="" target="_blank">Documentation</a>
+            <div className="flex gap-4 ">
+                <a href={documentationLink} className="contact-btn p-1 px-2 flex items-center gap-1 rounded-md" target="_blank">Documentation <FaGithub /></a>
                 {liveLink && (
-                    <a href={liveLink} className="" target="_blank">Check Live</a>
+                    <a href={liveLink} className="contact-btn p-1 px-2 flex items-center gap-1 rounded-md" target="_blank">Check Live <FaExternalLinkAlt /></a>
                 )}
             </div>
         </div>

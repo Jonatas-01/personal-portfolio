@@ -7,7 +7,7 @@ export default function Projects() {
         <section className="pt-10 px-4">
             <div className="container mx-auto max-w-6xl">
                 <ProjectTitle />
-                <div className="container mx-auto">
+                <div className="container mx-auto flex flex-col md:flex-row justify-center items-center md:items-start gap-5">
                     {projectsData.map((project) => (
                         <ProjectCard
                             key={project.id}
