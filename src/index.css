@@ -236,6 +236,12 @@
 .jupyter-color {
     color: #f37626;
 }
+.googlesheets-color {
+    color: #0f9d58;
+}
+.vite-color {
+    color: #646cff;
+}
 
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);

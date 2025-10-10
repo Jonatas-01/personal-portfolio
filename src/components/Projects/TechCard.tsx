@@ -1,5 +1,5 @@
 import { FaPython, FaReact, FaCss3Alt, FaHtml5, FaGitAlt, FaQuestion } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiStreamlit, SiJupyter, SiScikitlearn } from "react-icons/si";
+import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiGooglesheets, SiVite, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiStreamlit, SiJupyter, SiScikitlearn } from "react-icons/si";
 
 export default function TechCard({ tech }: { tech: string }) {
     switch (tech) {
@@ -35,6 +35,10 @@ export default function TechCard({ tech }: { tech: string }) {
             return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiScikitlearn className="scikitlearn-color"/></div>;
         case 'Jupyter':
             return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiJupyter className="jupyter-color"/></div>;
+        case 'GoogleSheets API':
+            return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiGooglesheets className="googlesheets-color"/></div>;
+        case 'Vite':
+            return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiVite className="vite-color"/></div>;
         default:
             return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><FaQuestion className="paragraph-color"/></div>;
     }
