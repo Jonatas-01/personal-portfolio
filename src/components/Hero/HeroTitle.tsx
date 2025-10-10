@@ -5,14 +5,14 @@ export default function HeroTitle() {
         <div className="flex flex-col gap-4 pt-8 mx-auto px-4">
             <BlurText
                 text="Hello world!, I'm"
-                delay={120}
+                delay={400}
                 animateBy="words"
                 direction="top"
                 className="title text-4xl sm:text-6xl text-white font-semibold tracking-tight"
             />
             <BlurText
                 text="Jonatas Mendes"
-                delay={150}
+                delay={700}
                 animateBy="words"
                 direction="top"
                 className="title text-3xl sm:text-6xl font-semibold secondary-color tracking-tight"
