@@ -22,7 +22,7 @@ export default function ProjectCard({
     return (
         <div className="block-animation p-3">
             <div className="overflow-hidden">
-                <img className="w-[500px] h-[260px] object-cover rounded-xl" src={image} alt={imageAlt} />
+                <img className="w-[560px] h-[280px] object-cover rounded-xl" src={image} alt={imageAlt} />
             </div>
             {/* Project Details */}
             <div className="py-3">
