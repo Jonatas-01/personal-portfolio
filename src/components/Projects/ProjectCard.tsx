@@ -20,7 +20,7 @@ export default function ProjectCard({
     liveLink,
     documentationLink }: ProjectCardProps) {
     return (
-        <div className=" p-3">
+        <div className="block-animation p-3">
             <div className="overflow-hidden">
                 <img className="w-[500px] h-[260px] object-cover rounded-xl" src={image} alt={imageAlt} />
             </div>
