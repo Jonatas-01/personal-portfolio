@@ -1,5 +1,5 @@
 import { FaPython, FaReact, FaCss3Alt, FaHtml5, FaGitAlt } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiScikitlearn, SiStreamlit } from "react-icons/si";
+import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiVite, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiScikitlearn, SiStreamlit } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import SkillsTag from "./SkillsTag";
 import type { JSX } from "react/jsx-runtime";
@@ -35,6 +35,7 @@ export default function SkillsCards() {
                 <Card skill="Git" icon={<FaGitAlt />} level="advanced" />
                 <Card skill="Scikit-learn" icon={<SiScikitlearn />} level="intermediate" />
                 <Card skill="Streamlit" icon={<SiStreamlit />} level="advanced" />
+                <Card skill="Vite" icon={<SiVite />} level="advanced" />
             </div>
         </div>
     )
