@@ -84,5 +84,6 @@ export const projectsData: Projects[] = [
             "Git",
         ],
         documentationLink: "https://github.com/Jonatas-01/personal-portfolio",
+        liveLink: "https://jonatas-dev.vercel.app/"
     },
 ];
