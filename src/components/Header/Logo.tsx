@@ -1,10 +1,10 @@
-
+import logo from "@/assets/images/logo.png";
 
 export default function Logo() {
     return (
         <div className="logo h-11 w-11">
             <a href="/">
-                <img src="../src/assets/images/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
             </a>
         </div>
     );
