@@ -145,6 +145,51 @@
     box-shadow: #e67e2a 0px 0px 9px 3px;
 }
 
+/* About me */
+.about-me-img {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    --ring-size: 4px;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.about-me-img::after,
+.about-me-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    animation: spin 2.5s linear infinite reverse;
+    -webkit-mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - var(--ring-size)),
+        #000000 calc(100% - var(--ring-size))
+    );
+    mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - var(--ring-size)),
+        #000000 calc(100% - var(--ring-size))
+    );
+}
+.about-me-img::after {
+    background: conic-gradient(from var(--angle), #e67e2a, transparent 20%);
+}
+
+.about-me-img::before {
+    background: conic-gradient(
+        from var(--angle),
+        rgba(219, 106, 14, 0.6),
+        transparent 40%
+    );
+    filter: blur(100px);
+}
+
 /* Skills */
 .skill-cards {
     border-color: #4b4b4b;
@@ -316,10 +361,10 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+    * {
+        @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
+    body {
+        @apply bg-background text-foreground;
     }
 }
