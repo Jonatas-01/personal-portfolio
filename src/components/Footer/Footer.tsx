@@ -2,7 +2,7 @@
 export default function Footer() {
     return (
         <footer className="w-full paragraph-color text-center pt-9 footer">
-            Designed and Developed by Jonatas Mendes
+            Designed and Developed by Jonatas Mendes &copy; {new Date().getFullYear()}
         </footer>
     )
 }
