@@ -48,7 +48,7 @@ The portfolio design was carefully planned and prototyped using **MockFlow**. Th
 - Component architecture design
 - Color scheme and typography selection
 
-*[View Design Mockup on MockFlow](https://app.mockflow.com/view/M2fc25e35e1fa81411f346cc0fcb093361758492143328)* <!-- Replace with your actual MockFlow link if available -->
+*[View Design Mockup on MockFlow](https://app.mockflow.com/view/M2fc25e35e1fa81411f346cc0fcb093361758492143328)*
 
 ## 🚀 Running Locally
 
@@ -151,6 +151,7 @@ src/
 - [Tailwind CSS](https://tailwindcss.com/) - Styling Framework
 - [Vite](https://vitejs.dev/) - Build Tool
 - [Vercel](https://vercel.com/) - Deployment Platform
+- [React Bits](https://reactbits.dev/) - React Animation Library
 
 ### Fonts
 - [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) - Google Fonts
