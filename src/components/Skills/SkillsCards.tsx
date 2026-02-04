@@ -1,5 +1,5 @@
 import { FaPython, FaReact, FaCss3Alt, FaHtml5, FaGitAlt } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiVite, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiScikitlearn, SiStreamlit } from "react-icons/si";
+import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiVite, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiScikitlearn, SiStreamlit, SiSupabase, SiVercel } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import SkillsTag from "./SkillsTag";
 import type { JSX } from "react/jsx-runtime";
@@ -27,6 +27,7 @@ export default function SkillsCards() {
                 <Card skill="CSS3" icon={<FaCss3Alt />} level="advanced" />
                 <Card skill="HTML5" icon={<FaHtml5 />} level="advanced" />
                 <Card skill="Django" icon={<SiDjango />} level="intermediate" />
+                <Card skill="Supabase" icon={<SiSupabase />} level="advanced" />
                 <Card skill="Tailwind" icon={<SiTailwindcss />} level="intermediate" />
                 <Card skill="NumPy" icon={<SiNumpy />} level="intermediate" />
                 <Card skill="Heroku" icon={<SiHeroku />} level="intermediate" />
@@ -36,6 +37,7 @@ export default function SkillsCards() {
                 <Card skill="Scikit-learn" icon={<SiScikitlearn />} level="intermediate" />
                 <Card skill="Streamlit" icon={<SiStreamlit />} level="advanced" />
                 <Card skill="Vite" icon={<SiVite />} level="advanced" />
+                <Card skill="Vercel" icon={<SiVercel />} level="advanced" />
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import { FaPython, FaReact, FaCss3Alt, FaHtml5, FaGitAlt, FaQuestion } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiGooglesheets, SiVite, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiStreamlit, SiJupyter, SiScikitlearn } from "react-icons/si";
+import { SiTypescript, SiJavascript, SiPostgresql, SiPandas, SiGooglesheets, SiVite, SiDjango, SiTailwindcss, SiNumpy, SiHeroku, SiStreamlit, SiJupyter, SiScikitlearn, SiNextdotjs, SiSupabase, SiVercel } from "react-icons/si";
 
 export default function TechCard({ tech }: { tech: string }) {
     switch (tech) {
@@ -39,6 +39,12 @@ export default function TechCard({ tech }: { tech: string }) {
             return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiGooglesheets className="googlesheets-color"/></div>;
         case 'Vite':
             return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiVite className="vite-color"/></div>;
+        case 'Next.js':
+            return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiNextdotjs className="nextjs-color"/></div>;
+        case 'Supabase':
+            return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiSupabase className="supabase-color"/></div>;
+        case 'Vercel':
+            return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><SiVercel className="vercel-color"/></div>;
         default:
             return <div className="text-3xl border rounded-xl w-11 h-11 flex items-center justify-center tech-card"><FaQuestion className="paragraph-color"/></div>;
     }

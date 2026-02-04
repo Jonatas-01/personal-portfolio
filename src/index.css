@@ -287,6 +287,15 @@
 .vite-color {
     color: #646cff;
 }
+.nextjs-color {
+    color: #000000;
+}
+.supabase-color {
+    color: #3ecf8e;
+}
+.vercel-color {
+    color: #ffffff;
+}
 
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);

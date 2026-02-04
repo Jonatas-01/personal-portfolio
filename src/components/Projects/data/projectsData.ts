@@ -2,6 +2,7 @@ import DocAdvancedImg from "@/assets/images/projects-img/DocAdvanced.png";
 import InsurancePredictImg from "@/assets/images/projects-img/InsurancePredict.jpg";
 import StarSchoolImg from "@/assets/images/projects-img/StarSchool.png";
 import PortfolioImg from "@/assets/images/projects-img/Portfolio.png";
+import AlternativaMoveis from "@/assets/images/projects-img/AlternativaMoveis.png";
 
 export interface Projects {
     id: number;
@@ -17,6 +18,26 @@ export interface Projects {
 export const projectsData: Projects[] = [
     {
         id: 1,
+        image: AlternativaMoveis,
+        imageAlt: "Alternativa Moveis Project Screenshot",
+        title: "Alternativa Móveis",
+        description:
+            "A full-stack furniture catalog website with an admin dashboard, developed for Alternativa Móveis, a furniture store. The platform enables the store owner to manage their product catalog while providing customers with an intuitive browsing experience and direct WhatsApp contact for inquiries.",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "React",
+            "Tailwind",
+            "Supabase",
+            "PostgreSQL",
+            "Git",
+            "Vercel",
+        ],
+        documentationLink: "https://github.com/Jonatas-01/alternativa-moveis",
+        liveLink: "https://www.alternativamoveis.com.br/",
+    },
+    {
+        id: 2,
         image: DocAdvancedImg,
         imageAlt: "DocAdvanced Project Screenshot",
         title: "DocAdvanced",
@@ -37,7 +58,7 @@ export const projectsData: Projects[] = [
         liveLink: "https://doc-advanced-c1ddb943acbd.herokuapp.com/",
     },
     {
-        id: 2,
+        id: 3,
         image: InsurancePredictImg,
         imageAlt: "Insurance Cost Prediction Project Screenshot",
         title: "Medical Insurance Cost Prediction",
@@ -58,16 +79,6 @@ export const projectsData: Projects[] = [
         liveLink: "https://insurance-predict-4eed0585c61b.herokuapp.com/",
     },
     {
-        id: 3,
-        image: StarSchoolImg,
-        imageAlt: "Star School Project Screenshot",
-        title: "Star School",
-        description:
-            "The Star School is a software application designed to help schools manage their students. It provides a terminal design with easy access and intuitive usability. All pages have clear instructions on how to navigate through the system.",
-        technologies: ["Python", "GoogleSheets API", "Git", "Heroku"],
-        documentationLink: "https://github.com/Jonatas-01/Star-School",
-    },
-    {
         id: 4,
         image: PortfolioImg,
         imageAlt: "Portfolio Project Screenshot",
@@ -84,6 +95,16 @@ export const projectsData: Projects[] = [
             "Git",
         ],
         documentationLink: "https://github.com/Jonatas-01/personal-portfolio",
-        liveLink: "https://jonatas-dev.vercel.app/"
+        liveLink: "https://jonatas-dev.vercel.app/",
+    },
+    {
+        id: 5,
+        image: StarSchoolImg,
+        imageAlt: "Star School Project Screenshot",
+        title: "Star School",
+        description:
+            "The Star School is a software application designed to help schools manage their students. It provides a terminal design with easy access and intuitive usability. All pages have clear instructions on how to navigate through the system.",
+        technologies: ["Python", "GoogleSheets API", "Git", "Heroku"],
+        documentationLink: "https://github.com/Jonatas-01/Star-School",
     },
 ];
